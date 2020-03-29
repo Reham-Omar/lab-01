@@ -1,0 +1,105 @@
+/* for Desktop */
+
+.c-d , .e-f-g-h{
+    margin-bottom: 0;
+  } 
+
+.c{
+    text-align: center;
+    line-height: 200px;
+    width: 380px;
+    height: 200px;
+    float: left;
+    background-color: rgb(172, 116, 43);
+  }
+
+.d{
+    text-align: center;
+    line-height: 200px;
+    width: 380px;
+    height: 200px;
+    float: right;
+    background-color: rgb(62, 107, 48);
+    }
+
+.e-f-g-h div{
+     text-align: center;
+     line-height: 250px;
+     width: 190px;
+     height: 250px;
+     position: relative;
+     float: left;
+
+      } 
+    
+.e{
+     background-color: rgb(81, 81, 153);     
+  }
+
+.f{
+background-color: crimson;
+}
+.g{
+    background-color: darkcyan;
+}
+.h{
+    background-color: darkkhaki;
+}
+
+
+/* for mobile  */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  
+        
+  
+    
+    .c-d , .e-f-g-h{
+        margin-bottom: 0;
+      } 
+    
+    .c{
+        text-align: center;
+        line-height: 150px;
+        width: 480px;
+        height: 150px;
+        float: left;
+        background-color: rgb(129, 51, 116);
+      }
+    
+    .d{
+        text-align: center;
+        line-height: 150px;
+        width: 480px;
+        height: 150px;
+        float: right;
+        background-color: rgb(134, 177, 121);
+        }
+    
+    .e-f-g-h div{
+         text-align: center;
+         line-height: 250px;
+         width: 240px;
+         height: 250px;
+         position: relative;
+         float: left;
+    
+          } 
+        
+    .e{
+         background-color: rgb(81, 81, 153);     
+      }
+    
+    .f{
+    background-color: rgb(133, 62, 74);
+    }
+    .g{
+        background-color: rgb(228, 222, 167);
+    }
+    .h{
+        background-color: rgb(34, 216, 207);
+    }
+    
+    
+    
+  }

@@ -1,0 +1,67 @@
+/* for Desktop */
+
+header {
+    height: 100px;
+    width: 960px;
+    background-color: azure;
+    text-align: center;
+    line-height: 100px;
+}
+aside {
+    width: 200px;
+    height: 600px;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 600px;
+    background-color: antiquewhite;
+   
+}
+footer{
+    float: left;
+    position: relative;
+    height: 150px;
+    width: 760px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 150px;
+    background-color: #aaa;
+
+}
+
+/* for mobile  */
+
+@media (min-width: 480px) and (max-width: 767px) {
+  
+        
+    
+    header {
+        height: 75px;
+        width: 480px;
+        background-color: rgb(64, 119, 119);
+        text-align: center;
+        line-height: 75px;
+    }
+    aside {
+        width: 480px;
+        height: 150px;
+        float: left;
+        position: relative;
+        text-align: center;
+        line-height: 150px;
+        background-color: rgb(82, 79, 76);
+       
+    }
+    footer{
+        float: left;
+        position: relative;
+        height: 80px;
+        width: 480px;
+        margin-top: 0;
+        text-align: center;
+        line-height: 80px;
+        background-color: #aaa;
+
+    }
+    
+}

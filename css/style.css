@@ -1,0 +1,183 @@
+/* for Desktop */
+  
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 960px;
+    height:auto ;
+    margin: auto;
+}
+
+header ,div,footer,aside{
+    border: 1px solid #555;
+}
+header {
+    height: 100px;
+    width: 960px;
+    background-color: azure;
+    text-align: center;
+    line-height: 100px;
+}
+aside {
+    width: 200px;
+    height: 600px;
+    float: left;
+    position: relative;
+    text-align: center;
+    line-height: 600px;
+    background-color: antiquewhite;
+   
+}
+
+.c-d , .e-f-g-h{
+    margin-bottom: 0;
+  } 
+
+.c{
+    text-align: center;
+    line-height: 200px;
+    width: 380px;
+    height: 200px;
+    float: left;
+    background-color: rgb(172, 116, 43);
+  }
+
+.d{
+    text-align: center;
+    line-height: 200px;
+    width: 380px;
+    height: 200px;
+    float: right;
+    background-color: rgb(62, 107, 48);
+    }
+
+.e-f-g-h div{
+     text-align: center;
+     line-height: 250px;
+     width: 190px;
+     height: 250px;
+     position: relative;
+     float: left;
+
+      } 
+    
+.e{
+     background-color: rgb(81, 81, 153);     
+  }
+
+.f{
+background-color: crimson;
+}
+.g{
+    background-color: darkcyan;
+}
+.h{
+    background-color: darkkhaki;
+}
+
+footer{
+    float: left;
+    position: relative;
+    height: 150px;
+    width: 760px;
+    margin-top: 0;
+    text-align: center;
+    line-height: 150px;
+    background-color: #aaa;
+
+} */
+/* for mobile  */
+
+  /* @media (min-width: 480px) and (max-width: 767px) {
+  
+    body{
+        width: 480px;
+        height:auto ;
+        margin: auto;
+    }
+    
+    header ,div,footer,aside{
+        border: 1px solid #555;
+    }
+    header {
+        height: 75px;
+        width: 480px;
+        background-color: rgb(64, 119, 119);
+        text-align: center;
+        line-height: 75px;
+    }
+    aside {
+        width: 480px;
+        height: 150px;
+        float: left;
+        position: relative;
+        text-align: center;
+        line-height: 150px;
+        background-color: rgb(82, 79, 76);
+       
+    }
+    
+    .c-d , .e-f-g-h{
+        margin-bottom: 0;
+      } 
+    
+    .c{
+        text-align: center;
+        line-height: 150px;
+        width: 480px;
+        height: 150px;
+        float: left;
+        background-color: rgb(129, 51, 116);
+      }
+    
+    .d{
+        text-align: center;
+        line-height: 150px;
+        width: 480px;
+        height: 150px;
+        float: right;
+        background-color: rgb(134, 177, 121);
+        }
+    
+    .e-f-g-h div{
+         text-align: center;
+         line-height: 250px;
+         width: 240px;
+         height: 250px;
+         position: relative;
+         float: left;
+    
+          } 
+        
+    .e{
+         background-color: rgb(81, 81, 153);     
+      }
+    
+    .f{
+    background-color: rgb(133, 62, 74);
+    }
+    .g{
+        background-color: rgb(228, 222, 167);
+    }
+    .h{
+        background-color: rgb(34, 216, 207);
+    }
+    
+    footer{
+        float: left;
+        position: relative;
+        height: 80px;
+        width: 480px;
+        margin-top: 0;
+        text-align: center;
+        line-height: 80px;
+        background-color: #aaa;
+
+    }
+    
+    
+  } */
+

@@ -1,0 +1,21 @@
+/* for Desktop */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header ,div,footer,aside{
+    border: 1px solid #555;
+}
+
+
+/* for mobile  */
+@media (min-width: 480px) and (max-width: 767px) {
+  
+        
+    header ,div,footer,aside{
+        border: 1px solid #555;
+    }
+}
