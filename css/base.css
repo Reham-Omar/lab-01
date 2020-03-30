@@ -1,5 +1,10 @@
 /* for Desktop */
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
     width: 960px;
     height:auto ;
@@ -7,7 +12,7 @@ body{
 }
 
 /* for mobile  */
-@media (min-width: 480px) and (max-width: 767px) {
+@media  (max-width: 767px) {
   
     body{
         width: 480px;
