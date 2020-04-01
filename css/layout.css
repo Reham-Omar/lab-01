@@ -1,6 +1,6 @@
 /* for Desktop */
 
-header {
+/* header {
     height: 100px;
     width: 960px;
     background-color: azure;
@@ -30,11 +30,11 @@ footer{
     background-color: #aaa;
     border-top: none;
 
-}
+} */
 
 /* for mobile  */
 
-@media  (max-width: 767px) {
+/* @media  (max-width: 767px) {
   
         
     
@@ -70,4 +70,109 @@ footer{
 
     }
     
-}
+} */
+
+@media (min-width: 960px) {
+    header {
+        width: 100%;
+        height: 100px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        height: 600px;
+    }
+    
+    #cont{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #e-h {
+      display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+  }
+  #c-d {
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+      footer {
+          display: flex;
+          justify-content: center;
+          height: 100%;
+          align-items: center;
+      }}
+
+      /* tablate  */
+      @media (min-width: 767px) and (max-width: 960px) {
+        main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+        height: 75px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+        }
+     
+      #c-d {
+          display: grid;
+          grid-template-columns: 50% 50%;
+      }
+      
+      #e-h {
+          display: grid;
+          height: 500px;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: 50% 50%;
+      }
+      
+      
+      footer {
+          display: flex;
+          justify-content: center;
+          height: 80px;
+          align-items: center;
+          border: 1px solid black;
+      box-sizing: border-box;   
+      } 
+      
+      }
+      /* mobile */
+      @media (max-width: 767px) {
+        main {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            width: 100%;
+        height: 75px;
+        display: flex;
+      flex-direction: column;
+      justify-content: center;
+        }
+        
+      
+      #e-h {
+          display: grid;
+          height: 500px;
+          grid-template-columns: 50% 50%;
+          grid-template-rows: 50% 50%;
+      }
+      
+     
+      footer {
+          background-color: rgb(8, 219, 138);
+          display: flex;
+          justify-content: center;
+          height: 80px;
+          
+      }
+      }

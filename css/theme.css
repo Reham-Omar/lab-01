@@ -1,16 +1,110 @@
 /* for Desktop */
 
 
-header ,div,footer,aside{
+/* header ,div,footer,aside{
     border: 1px solid #555;
-}
+} */
 
 
 /* for mobile  */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   
         
     header ,div,footer,aside{
         border: 1px solid #555;
+    }
+} */
+
+@media (min-width: 960px) {
+    header {
+        background: brown;
+        text-align: center;
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
+    }
+    main aside{
+        background: rgb(245, 108, 108);
+        text-align: center;
+        border: 1px solid black;
+        box-sizing: border-box;
+    }
+    #c-d div {
+        background-color: cadetblue;
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #e-h div {
+        background-color: rgb(160, 95, 122);
+        border: 1px solid black;
+        box-sizing: border-box;}
+
+        footer {
+          background-color: gray;
+
+            border: 1px solid black;
+          border-top: none;
+          border-left: none;
+      box-sizing: border-box;  
+        }
+}
+/* tablate  */
+@media (min-width: 767px) and (max-width: 960px) {
+    header {
+        background: rgb(223, 219, 12);
+        text-align: center;
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
+    }
+    main aside{
+        background: rgb(247, 116, 219);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #c-d div {
+        background-color: rgb(2, 73, 165);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    footer {
+        background-color: rgb(175, 6, 125);}
+}
+
+/* mobile */
+@media (max-width: 767px) {
+    header {
+        background: rgb(42, 165, 155);
+        text-align: center;
+        border: 1px solid black;
+      box-sizing: border-box;
+      border-bottom: none;
+    }
+    main aside{
+        background: rgb(116, 247, 229);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #c-d div {
+        background-color: rgb(106, 238, 117);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    #e-h div {
+        background-color: rgb(157, 43, 250);
+        border: 1px solid black;
+        box-sizing: border-box;
+        border-bottom: none;
+    }
+    footer {
+        background-color: rgb(8, 219, 138);
+        align-items: center;
+          border: 1px solid black;
+      box-sizing: border-box;   
     }
 }
