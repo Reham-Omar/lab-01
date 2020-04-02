@@ -1,6 +1,5 @@
-/* for Desktop */
 
-*{
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,14 +8,51 @@ body{
     width: 960px;
     height:auto ;
     margin: auto;
-}
+} */
 
-/* for mobile  */
-@media  (max-width: 767px) {
-  
+/* @media  (max-width: 767px) {
+    
     body{
         width: 480px;
         height:auto ;
         margin: auto;
     }
+} */
+/* for Desktop */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+body{
+    width: 100%;
+    height: outo;
+}
+@media (min-width: 1021px) {
+    body{
+      width: 960px;
+      height: outo;
+      margin: auto;
+    }
+    
+}
+/* for tablet */
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    body{
+        width: 700px;
+        height: outo;
+        margin: auto;
+    }
+    
+}
+/* for mobile  */
+  @media (max-width: 767px) {
+      body{
+          width: 480px;
+          height: outo;
+          margin: auto;
+      }
+      
+  }
+  
