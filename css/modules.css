@@ -264,6 +264,10 @@
     }
     .h{
         background-color: rgb(109, 84, 115);
+        border: 1px solid;
+     border-left: none;
+     border-top: none;
+     border-bottom: none;
            
     }
 
